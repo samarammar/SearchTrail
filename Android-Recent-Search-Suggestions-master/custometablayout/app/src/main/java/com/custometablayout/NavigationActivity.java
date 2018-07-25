@@ -19,7 +19,7 @@ public class NavigationActivity extends AppCompatActivity {
 
         for (int i = 1; i <= 10; i++) {
             final Button myButton = new Button(this);
-            myButton.setText("Button number :" + i);
+            myButton.setText("Button :" + i);
             myButton.setId(i);
             final int id_ = myButton.getId();
 
